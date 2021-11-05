@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Cuestionario | Videojuegos </title>
+        
+    </head>
+    <body>
+        <div class="nav">
+            <h1>¿Cuánto sabes sobre <strong class="strongtitulo">videojuegos</strong>?</h1>
+            <p>Demuéstralo con esta prueba de nivel básico</p>
+        </div>
+
+        <div class="container">
+            <div class="pregunta" id="caja">
+                <h4 id="enunciado">1) Preg</h4>
+
+                <img class="preg-imagen" id="img-preg2" src="./images/background.jpg" alt="imagen" />
+
+                <ul id="lista">
+                    <li><input type="radio" value="A" name="r1" /><span id="opcion1">asa</span></li>
+                    <li><input type="radio" value="B" name="r1" /><span id="opcion2">asa</span></li>
+                    <li><input type="radio" value="C" name="r1" /><span id="opcion3">asa</span></li>
+                </ul>
+                <br />
+                <input id="numerico" class="input" type="number" />
+                <input id="inputfecha" class="input" type="date" />
+            </div>
+            
+            <button id="btn-enviar" class="sig">SIGUIENTE</button>
+
+            <div id="boxresultados">
+                <h1>Gracias por participar!</h1>
+                <h2 id="resultados">Resultado</h2>
+                <h3 class="tituloincorrectas">Resultados:</h3>
+            </div>
+        </div>
+
+        <footer>Trabajo integral de programacion III @Agustin Aiello 2021</footer>
+        <script src="./preguntas.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

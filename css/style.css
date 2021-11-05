@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+#preg-imagen{
+    display: none;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    overflow: hidden;
+}
+
+.strongtitulo{
+    color: rgba(255, 0, 0, 0.774);
+}
+
+.nav{
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 25px;
+}
+
+.enunciado{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.preg-imagen{
+    width: 100px; height: 100px;
+    padding-top: 6%;
+}
+
+#lista li{
+    padding: 1%;
+}
+
+#lista{
+    padding: 4%;
+}
+
+.container{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #343a4069;
+    margin: 20px 30% 0 30%;
+    border-radius: 10px;
+    height: 46vh;
+    color: white;
+}
+
+
+.sig{
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pregunta ul li{
+    list-style-type: none;
+    width: 100%;
+}
+
+.input{
+    background: transparent;
+    color: white;
+    padding: 4%;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #007bff;
+    padding: 2%;
+    color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#boxresultados{
+    display: none;
+}
+#boxresultados h1{
+    color: greenyellow;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tituloincorrectas{
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.h4incorrectas{
+     color: red;
+}
+
+.h4correctas{
+    color: rgb(30, 255, 0);
+}
+
+#resultados{
+    color: orange;
+    text-align: center;
+}
+
